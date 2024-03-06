@@ -758,26 +758,26 @@ function fnc_project_color(values, context) {
 
 
 function exp_LO_seirealad_2024_2rule0_eval_expression(context) {
-    // seiraja IS NULL
+    // seiratud IS NULL
 
     var feature = context.feature;
     
     if (feature.properties) {
-        return (feature.properties['Seiraja']  === null);
+        return (feature.properties['Seiratud']  === null);
     } else {
-        return (feature['Seiraja']  === null);
+        return (feature['Seiratud']  === null);
     }
 }
 
 
 function exp_LO_seirealad_2024_2rule1_eval_expression(context) {
-    // seiraja IS NOT NULL
+    // seiratud IS NOT NULL
 
     var feature = context.feature;
     
     if (feature.properties) {
-        return (feature.properties['Seiraja']  !== null);
+        return (feature.properties['Seiratud']  !== null);
     } else {
-        return (feature['Seiraja']  !== null);
+        return (feature['Seiratud']  !== null);
     }
 }
